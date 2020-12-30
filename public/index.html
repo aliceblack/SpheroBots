@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+            <title>Robots</title>
+            <!--Bootstrap4-->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+            <!--Google fonts-->
+            <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Peddana&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+            <link rel="stylesheet" type="text/css" href="styles.css">
+          </head>
+    </head>
+    <body class="fullscreen">
+        <div class="container">
+            <h1 class="title">Robots!</h1>
+            <noscript>Your browser does not support JavaScript!</noscript>
+
+            <button onclick="setColor('blue')" type="button" class="btn btn-primary">Blue</button>
+            <button onclick="setColor('green')" type="button" class="btn btn-success">Green</button>
+            <button onclick="setColor('red')" type="button" class="btn btn-danger">Red</button>
+            <button onclick="setColor('yellow')" type="button" class="btn btn-warning">Yellow</button>
+            <button onclick="setColor('white')" type="button" class="btn btn-light">White</button>
+
+            <div class="mt-1">
+                <button onclick="move('front')" type="button" class="btn btn-dark">Front</button>
+                <button onclick="move('back')" type="button" class="btn btn-dark">Back</button>
+                <button onclick="move('left')" type="button" class="btn btn-dark">Left</button>
+                <button onclick="move('right')" type="button" class="btn btn-dark">Right</button>
+                <button onclick="move('stop')" type="button" class="btn btn-dark">Stop</button>
+            </div>
+
+        </div>
+        <script src="index.js"></script>
+</body>
+</html> 
