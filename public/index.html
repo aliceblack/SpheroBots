@@ -15,26 +15,32 @@
             <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
             <link href="https://fonts.googleapis.com/css2?family=Peddana&display=swap" rel="stylesheet">
             <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+            <!--Material icons-->
+            <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
             <link rel="stylesheet" type="text/css" href="styles.css">
           </head>
     </head>
     <body class="fullscreen">
         <div class="container">
-            <h1 class="title">Robots!</h1>
+            <h1 class="title">Spegro bots</h1>
+            <p>Pilot your Sphero bot and change led colors!</p>
             <noscript>Your browser does not support JavaScript!</noscript>
 
-            <button onclick="setColor('blue')" type="button" class="btn btn-primary">Blue</button>
-            <button onclick="setColor('green')" type="button" class="btn btn-success">Green</button>
-            <button onclick="setColor('red')" type="button" class="btn btn-danger">Red</button>
-            <button onclick="setColor('yellow')" type="button" class="btn btn-warning">Yellow</button>
-            <button onclick="setColor('white')" type="button" class="btn btn-light">White</button>
+            <button onclick="setColor('blue')" type="button" ><span class="material-icons color-blue">invert_colors</span></button>
+            <button onclick="setColor('purple')" type="button" ><span class="material-icons color-red">invert_colors</span></button>
+            <button onclick="setColor('yellow')" type="button" ><span class="material-icons color-yellow">invert_colors</span></button>
+            <button onclick="setColor('white')" type="button" ><span class="material-icons color-white">invert_colors</span></button>
 
             <div class="mt-1">
-                <button onclick="move('front')" type="button" class="btn btn-dark">Front</button>
-                <button onclick="move('back')" type="button" class="btn btn-dark">Back</button>
-                <button onclick="move('left')" type="button" class="btn btn-dark">Left</button>
-                <button onclick="move('right')" type="button" class="btn btn-dark">Right</button>
-                <button onclick="move('stop')" type="button" class="btn btn-dark">Stop</button>
+                <button onclick="move('front')" type="button" ><span class="material-icons color-white">expand_less</span></button>
+            </div>
+            <div class="mt-1">
+                <button onclick="move('left')" type="button" ><span class="material-icons color-white">chevron_left</span></button>
+                <button onclick="move('stop')" type="button" ><span class="material-icons color-white">close</span></button>
+                <button onclick="move('right')" type="button" ><span class="material-icons color-white">chevron_right</span></button>
+            </div>
+            <div class="mt-1">
+                <button onclick="move('back')" type="button" ><span class="material-icons color-white">expand_more</span></button>
             </div>
 
         </div>

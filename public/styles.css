@@ -1,5 +1,7 @@
 body {
-    font-family: sans-serif;
+    font-family: Montserrat;
+    color: white;
+    background-color: black;
 }
 
 /* Make content area fill the entire browser window */
@@ -21,4 +23,29 @@ html,
 .title {
     font-size: 3rem;
     font-family: 'Great Vibes', cursive;
+}
+
+.color-blue{
+    color: #3E82F7;
+}
+
+.color-green{
+    color: #2CA94F;
+}
+
+.color-red{
+    color: #BB11DD;
+}
+
+.color-yellow{
+    color: #FCBD00;
+}
+
+.color-white{
+    color: white;
+}
+
+button {
+    background: transparent;
+    border: none !important;
 }
