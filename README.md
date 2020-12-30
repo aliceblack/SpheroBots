@@ -2,7 +2,7 @@
 
 ![screen](images/screen.png)
 
-Pair your computer with a Sphero bot, note down the address and use it in index.js.
+Pair your computer with a Sphero bot, note down the address and use it in server.js.
 
 Avoid Windows if you have BLE pairing problems.
 
